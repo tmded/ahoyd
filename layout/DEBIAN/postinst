@@ -1,0 +1,11 @@
+#!/bin/sh
+echo "Killing Ahoyd..."
+killall Ahoyd 2> /dev/null
+echo "Starting Ahoyd..."
+chown root:wheel /usr/
+chmod 755 /usr/local/bin/Ahoyd
+chown root:wheel /Library/LaunchDaemons/com.tmded.ahoyd.plist
+chmod 644 /Library/LaunchDaemons/com.tmded.ahoyd.plist
+launchctl load /Library/LaunchDaemons/com.tmded.ahoyd.plist 2> /dev/null
+echo "Done!"
+exit 0

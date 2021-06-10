@@ -1,0 +1,9 @@
+Package: com.tmded.ahoyd
+Name: ahoyd
+Depends: 
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Ahoyd idk nerd
+Maintainer: Tom Davies
+Author: Tom Davies
+Section: System
