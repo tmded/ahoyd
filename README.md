@@ -1,2 +1,2 @@
 # ahoyd
-idk nerd
+ahoy but a service
